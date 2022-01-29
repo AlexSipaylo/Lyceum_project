@@ -1361,7 +1361,13 @@ class WriteWindowWidget(QWidget):
                        'ɪə': 'audio/ie.mp3', 'eɪ': 'audio/ei.mp3', 'e': 'audio/e.mp3', 'ə': 'audio/ee.mp3',
                        'ɜː': 'audio/ear.mp3', 'ɔː': 'audio/oo.mp3', 'ʊə': 'audio/ue.mp3', 'ɔɪ': 'audio/oi.mp3',
                        'əʊ': 'audio/ou.mp3', 'æ': 'audio/ae.mp3', 'ʌ': 'audio/a.mp3', 'ɑː': 'audio/aa.mp3',
-                       'ɒ': 'audio/o.mp3', 'eə': 'audio/are.mp3', 'aɪ': 'audio/ai.mp3', 'aʊ': 'audio/au.mp3'}
+                       'ɒ': 'audio/o.mp3', 'eə': 'audio/are.mp3', 'aɪ': 'audio/ai.mp3', 'aʊ': 'audio/au.mp3',
+                       'p': 'audio/p.mp3', 'b': 'audio/b.mp3', 't': 'audio/t.mp3', 'd': 'audio/d.mp3',
+                       'ʧ': 'audio/tch.mp3', 'ʤ': 'audio/dz.mp3', 'k': 'audio/k.mp3', 'g': 'audio/g.mp3',
+                       'f': 'audio/f.mp3', 'v': 'audio/v.mp3', 'θ': 'audio/ff.mp3', 'ð': 'audio/th.mp3',
+                       's': 'audio/s.mp3', 'z': 'audio/z.mp3', 'ʃ': 'audio/sh.mp3', 'ʒ': 'audio/zh.mp3',
+                       'm': 'audio/m.mp3', 'n': 'audio/n.mp3', 'ŋ': 'audio/ng.mp3', 'h': 'audio/h.mp3',
+                       'l': 'audio/l.mp3', 'r': 'audio/r.mp3', 'w': 'audio/w.mp3', 'j': 'audio/j.mp3'}
         self.x = 140
         for i in range(6):
             if self.keyboard_knopki[i] != 'ɪə' and self.keyboard_knopki[i] != 'eɪ':
